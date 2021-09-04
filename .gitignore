@@ -2,6 +2,7 @@
 
 .git
 .idea
+*.user
 
 # Build results
 [Dd]ebug/
