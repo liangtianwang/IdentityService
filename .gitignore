@@ -3,6 +3,7 @@
 .git
 .idea
 *.user
+*.jwk
 
 # Build results
 [Dd]ebug/
