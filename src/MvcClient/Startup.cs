@@ -43,6 +43,9 @@ namespace MvcClient
                     options.ResponseType = "code";
 
                     options.SaveTokens = true;
+                    
+                    options.Scope.Add("profile");
+                    options.GetClaimsFromUserInfoEndpoint = true;
                 });
         }
 
